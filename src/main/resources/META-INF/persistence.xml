@@ -32,7 +32,7 @@ createDatabaseIfNotExist=true&amp;useTimezone=true&amp;serverTimezone=UTC" />
 
 			<property name="hibernate.hbm2ddl.auto" value="update" />
 			
-			<property name="hibernate.jdbc.serverTimezone" value="UTC"/>
+			<property name="hibernate.jdbc.time_zone" value="UTC"/>
 			
 			
 

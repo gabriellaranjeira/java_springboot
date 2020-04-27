@@ -9,7 +9,7 @@ public class TesteCriarBaseETabelas {
 	
 	@PostConstruct
 	public void started() {
-	    TimeZone.setDefault(TimeZone.getTimeZone("BRT"));
+	    TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
 	}
 	
 	public static void main(String[] args) {

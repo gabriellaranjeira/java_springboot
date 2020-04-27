@@ -1,8 +1,11 @@
 package br.usjt.tempo_hibernate;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -12,7 +15,9 @@ public class Dias {
 	@GeneratedValue
 	
 	private Long id;
-	private String nome_semana;
+	private String nomeSemana;
+	
+
 	public Long getId() {
 		return id;
 	}
@@ -20,10 +25,10 @@ public class Dias {
 		this.id = id;
 	}
 	public String getNomeSemana() {
-		return nome_semana;
+		return nomeSemana;
 	}
-	public void setNomeSemana(String nome_semana) {
-		this.nome_semana = nome_semana;
+	public void setNomeSemana(String NomeSemana) {
+		this.nomeSemana = NomeSemana;
 	}
 	
 	@Override
