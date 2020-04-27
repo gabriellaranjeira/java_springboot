@@ -1,10 +1,10 @@
-package br.usjt.hellospringboot;
+package br.usjt.tempo_hibernate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HellospringbootApplicationTests {
+class TempoHibernateApplicationTests {
 
 	@Test
 	void contextLoads() {
